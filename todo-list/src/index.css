@@ -36,6 +36,8 @@ h1 {
 }
 form {
   margin-top: 16px;
+  display: flex;
+  flex-direction: column;
 }
 ul {
   list-style-type: none;
