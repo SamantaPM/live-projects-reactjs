@@ -67,3 +67,25 @@ Requirements:
 **Bonus (optional, extra credit)**
 - Add a "Back to Posts" link on the details page.
 - Show "Post not found" if the id doesn’t exist.
+
+## Live Coding Exercise 4 — Global State + Router: MINI CART
+
+You’re building a mini shopping cart app.
+
+Requirements:
+
+1. Use React Router for pages:
+
+  - /products → shows a list of products.
+  - /cart → shows the shopping cart.
+
+2. Use Context API (no Redux yet) to manage the cart state.
+3. A product should have: id, name, and price.
+4. On the /products page, show a list of products with an “Add to Cart” button.
+5. On the /cart page, list all items currently in the cart and show the total price.
+6. Add a NavBar so the user can navigate between /products and /cart.
+
+👉 Your goal:
+
+- Set up the CartContext provider.
+- Implement the /products and /cart pages using that shared state.
